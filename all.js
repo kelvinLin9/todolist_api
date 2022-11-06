@@ -21,6 +21,9 @@ const signUpPassword = document.querySelector('#signUpPassword')
 const signUpPassword2 = document.querySelector('#signUpPassword2')
 const btn2 = document.querySelector('.btn2')
 btn2.addEventListener('click', () => {
-  let email = signUpEmail.value
-  console.log(email)
+  let userEmail = signUpEmail.value
+  let userNickName = nickName.value
+  let userSignUpPassword = signUpPassword.value
+  let userSignUpPassword2 = signUpPassword2.value
+  console.log(userEmail, userNickName, userSignUpPassword, userSignUpPassword2)
 })
