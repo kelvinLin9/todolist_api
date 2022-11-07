@@ -9,11 +9,11 @@ body {
   font-family: sans-serif;
 }
 
-.wrap.active {
+.user-page.active {
   display: flex;
 }
 
-.wrap {
+.user-page {
   margin: 0 auto;
 
   display: none;
@@ -43,11 +43,11 @@ a {
 }
 
 /* 登入 */
-.login.active {
+.login-page.active {
   display: flex;
 }
 
-.login {
+.login-page {
 
   height: 350px;
   color: #333333;
@@ -78,14 +78,14 @@ a {
   margin-bottom: 5px;
 }
 
-.content .login p {
+.content .login-page p {
   color: #D87355;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-.content .btn,
-.content .btn2 {
+.content .login-btn,
+.content .signup-btn {
   background-color: #333333;
   width: 130px;
   height: 47px;
@@ -96,22 +96,22 @@ a {
   margin: 20px;
 }
 
-.content .btn:hover,
-.btn2:hover {
+.content .login-btn:hover,
+.signup-btn:hover {
   cursor: pointer;
   box-shadow: 0 0 5px #000;
 }
 
-.content .sing-btn,
-.login-btn {
+.content .to-signup-page,
+.to-login-page {
   display: block;
   width: 80px;
   align-self: center;
   color: #333333;
 }
 
-.content .sing-btn:hover,
-.login-btn:hover {
+.content .to-signup-page:hover,
+.to-login-page:hover {
   color: #fff;
 }
 
@@ -120,7 +120,7 @@ a {
       display: none;
   }
 
-  .wrap {
+  .user-page {
       flex-direction: column;
   }
 
@@ -132,7 +132,7 @@ a {
       text-align: center;
   }
 
-  .content .btn2 {
+  .content .signup-btn {
       width: 130px;
   }
 
@@ -141,24 +141,24 @@ a {
 
 
 /* 註冊 */
-.content .signup {
+.content .signup-page {
   display: none;
   flex-direction: column;
   justify-content: center;
 
 }
 
-.signup.active {
+.signup-page.active {
   display: flex;
 }
 
-.content .signup input {
+.content .signup-page input {
   margin-bottom: 20px;
 }
 
 
 /* 清單 */
-.wrap2 {
+.todo-page {
   height: 840px;
   background-image: linear-gradient(174deg,
           #ffd370 2%,
@@ -171,7 +171,7 @@ a {
 
 }
 
-.wrap2.active {
+.todo-page.active {
   display: flex;
 }
 
@@ -196,13 +196,13 @@ a {
   padding-right: 20px;
 }
 
-.header .signout {
+.header .sign-out {
 
   color: #333333;
 
 }
 
-.header .signout:hover {
+.header .sign-out:hover {
   color: #fff;
 }
 
@@ -460,7 +460,7 @@ a {
 }
 
 @media (max-width:767px) {
-  .wrap2 {
+  .todo-page {
       background-image: none;
   }
 
