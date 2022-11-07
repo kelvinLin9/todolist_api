@@ -82,3 +82,6 @@ signOut.addEventListener('click',() => {
   userPage.classList.toggle('active')
   todoPage.classList.toggle('active')
 })
+
+// 內頁
+document.querySelector('.nickname').innerHTML = `<h2>666666</h2>`
