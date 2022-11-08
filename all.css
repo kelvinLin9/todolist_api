@@ -2,7 +2,9 @@
 * {
   box-sizing: border-box;
 }
-
+.test {
+  outline: solid rgb(218, 27, 27) ;
+}
 body {
   background-color: #FFD370;
   font-weight: bolder;
@@ -59,7 +61,6 @@ a {
 
 
 .content h2 {
-
   margin-bottom: 30px;
   font-size: 24px;
 
